@@ -8,20 +8,21 @@
 </head>
 <body>
 
-    <h1>Welcome to Stone, Sheet, Knife Game</h1>
     <script src="app.js"></script>
     <button onclick="startGame()"> Click here to play game! </button>
+    
+    <!-- Credit for Jquery is from w3schools.com -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script> 
         $(document).ready(function(){
             $("button").click(function(){
-                $("#rules").text("Click on play game and enter your choice!");
+                $("#rules").text("Stone beats knife. Knife slice sheet. Sheet wraps rock. Start the game by clicking the play game button. You can choose either stone, sheet, or knife in the prompt. If you misspell the choices, you will automatically lose. ");
             });
         });
     </script> 
     <button>Rules of the game!</button>
-    <p><a id="rules">Welcome to the Game!</a></p>
-    
+    <p><a id="rules">Welcome to the Stone, Sheet, Knife Game!</a></p>
 
 </body>
 </html>
+
