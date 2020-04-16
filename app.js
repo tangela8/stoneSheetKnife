@@ -44,7 +44,7 @@ function startGame() {
     let playGame = checkWin(player,computer);
 
     //display the win/lose state of the game to the DOM
-    document.write("Player chooses " + player + " and " + "Computer chooses " + computer + " Sooooo " + playGame);
+    document.write("Player chooses " + player + " and " + "Computer chooses " + computer + " Sooooo </p>" + playGame);
 
 }
 

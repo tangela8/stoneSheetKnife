@@ -8,3 +8,5 @@
 ## If there’s a tie, then the game ends in a tie.
 
 ## Refresh the page to restart the game!
+
+##### Credits: www.w3schools.com, https://media1.giphy.com
