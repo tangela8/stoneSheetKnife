@@ -44,6 +44,7 @@ function startGame() {
     let playGame = checkWin(player,computer);
 
     //display the win/lose state of the game to the DOM
+    document.querySelector("text").innerHTML = playGame;
     document.write( '<h1>' + "Player chooses " + player + " and " + "Computer chooses " + computer + '<p>' + " Sooooo " + playGame + '</h1');
 
 }
