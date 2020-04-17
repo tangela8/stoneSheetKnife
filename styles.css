@@ -25,4 +25,8 @@ body {
     transform: translate(-50%, -50%);
   }
 
- 
+#text {
+    text-align: center;
+    font-size: 90px;
+    font-display: center;
+}
